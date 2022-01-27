@@ -1,8 +1,4 @@
-n = int(input("Enter the number of elements: "))
-els = []
-print("Enter", n, "numbers")
-for i in range(n):
-	els.append(int(input()))
+els = [1,3,5,7,9]
 search = int(input("Enter the number to search: "))
 count = 0
 for el in els:
