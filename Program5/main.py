@@ -9,4 +9,4 @@ for i in range(n + 1):
 		fact *= num
 	sum += x**i / fact
 
-print("e^x = ", sum)
+print("Series value = ", sum)
